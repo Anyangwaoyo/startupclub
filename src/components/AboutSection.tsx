@@ -1,4 +1,5 @@
 import React from 'react';
+import communityBuilderImg from '../assets/images/community_builder_session_1790694723681.jpg';
 
 export const AboutSection: React.FC = () => {
   return (
@@ -9,8 +10,8 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-6 order-2 lg:order-1">
             <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200/80 bg-slate-900 group">
               <img
-                src="/src/assets/images/community_builder_session_1790694723681.jpg"
-                alt="Nigerian software engineers and startup operators collaborating during a sprint in Lagos"
+                src={communityBuilderImg}
+                alt="Nigerian software engineers and startup operators collaborating during a session"
                 referrerPolicy="no-referrer"
                 className="w-full aspect-4/3 object-cover object-center transform transition-transform duration-700 ease-out group-hover:scale-[1.01]"
                 loading="lazy"

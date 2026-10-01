@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowUpRight, ArrowDown } from 'lucide-react';
+import heroImage from '../assets/images/hero_african_founders_1790694703862.jpg';
 
 interface HeroProps {
   onOpenApply: () => void;
@@ -99,8 +100,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenApply, onExploreCommunity }) =
         <div className="mt-12 lg:mt-16 max-w-5xl mx-auto">
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200/80 bg-slate-900 group">
             <img
-              src="/src/assets/images/hero_african_founders_1790694703862.jpg"
-              alt="Nigerian startup founders and engineers collaborating in a modern Lagos tech hub"
+              src={heroImage}
+              alt="Nigerian startup founders and engineers collaborating in a modern tech hub"
               referrerPolicy="no-referrer"
               className="w-full aspect-16/9 object-cover object-center transform transition-transform duration-700 ease-out group-hover:scale-[1.01]"
               loading="eager"
