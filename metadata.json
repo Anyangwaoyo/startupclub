@@ -1,0 +1,6 @@
+{
+  "name": "startupclubNG",
+  "description": "Nigeria’s curated startup community for founders, builders, investors, and operators. BUILD. CONNECT. GROW.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
